@@ -1,2 +1,8 @@
-ALTER TABLE persons
-ADD email varchar(25) NOT NULL
+--CODE TO ALTER A TABLE 
+--Note: Multiple new additions seem to need new alter tables
+
+ALTER TABLE orders
+ADD ship_date DATE;
+
+ALTER TABLE orders
+ADD ship_status VARCHAR(20);
